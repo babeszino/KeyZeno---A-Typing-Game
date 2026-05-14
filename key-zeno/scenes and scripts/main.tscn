@@ -8,7 +8,7 @@
 [node name="Background" type="ColorRect" parent="." unique_id=1522088186]
 offset_right = 1280.0
 offset_bottom = 720.0
-color = Color(0.0627451, 0.21176471, 0.3137255, 1)
+color = Color(0.047183037, 0.17687917, 0.2655804, 1)
 
 [node name="WordDisplay" type="Node2D" parent="." unique_id=1610202051]
 position = Vector2(640, 340)

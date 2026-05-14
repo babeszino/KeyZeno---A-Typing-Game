@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="KeyZeno"
+run/main_scene="uid://l02m8d70m254"
 config/features=PackedStringArray("4.6", "Mobile")
 config/icon="res://icon.svg"
 

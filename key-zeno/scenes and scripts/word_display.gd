@@ -12,10 +12,10 @@ const WORD_SPACING: int = 8
 const LINE_HEIGHT_EXTRA: int = 10
 
 # colors
-const COLOR_UPCOMING: Color = Color("#627a4")
+const COLOR_UPCOMING: Color = Color("2f76a8ff")
 const COLOR_CORRECT: Color = Color("#50fa7b")
 const COLOR_WRONG: Color = Color("c50826ff")
-const COLOR_CURSOR: Color = Color("faf9e3ff")
+const COLOR_CURSOR: Color = Color("fcfbcdff")
 
 # state
 var words: Array[String] = []
@@ -70,3 +70,7 @@ func _draw() -> void:
 		if ch == " " and x > 900:
 			x = 0.0
 			y += line_h
+
+func _ready() -> void:
+	var test_words: Array[String] = ["hello", "world", "key", "zeno"]
+	setup(test_words)
