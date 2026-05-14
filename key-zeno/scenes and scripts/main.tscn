@@ -3,25 +3,55 @@
 [node name="Main" type="Node2D" unique_id=961440500]
 
 [node name="Background" type="ColorRect" parent="." unique_id=1522088186]
-offset_right = 40.0
-offset_bottom = 40.0
+offset_right = 1280.0
+offset_bottom = 720.0
+color = Color(0.0627451, 0.21176471, 0.3137255, 1)
 
 [node name="WordDisplay" type="Node2D" parent="." unique_id=1610202051]
+position = Vector2(640, 340)
 
 [node name="Input" type="LineEdit" parent="." unique_id=1847171810]
-offset_right = 68.5
+offset_left = -300.0
+offset_right = -231.5
 offset_bottom = 31.0
 
 [node name="UI" type="CanvasLayer" parent="." unique_id=987657767]
 
 [node name="TimerLabel" type="Label" parent="UI" unique_id=350954483]
-offset_right = 40.0
-offset_bottom = 23.0
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -20.0
+offset_top = 15.0
+offset_right = 20.0
+offset_bottom = 38.0
+grow_horizontal = 2
+text = "60"
 
 [node name="WPMLabel" type="Label" parent="UI" unique_id=339045317]
-offset_right = 40.0
-offset_bottom = 23.0
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -20.0
+offset_top = -38.0
+offset_right = 20.0
+offset_bottom = -15.0
+grow_horizontal = 2
+grow_vertical = 0
+text = "0 wpm"
 
 [node name="AccuracyLabel" type="Label" parent="UI" unique_id=633756671]
-offset_right = 40.0
-offset_bottom = 23.0
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -52.5
+offset_top = -68.0
+offset_right = 52.5
+offset_bottom = -45.0
+grow_horizontal = 2
+grow_vertical = 0
+text = "72% accuracy"
