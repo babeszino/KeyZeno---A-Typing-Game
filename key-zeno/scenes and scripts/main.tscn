@@ -1,0 +1,27 @@
+[gd_scene format=3 uid="uid://l02m8d70m254"]
+
+[node name="Main" type="Node2D" unique_id=961440500]
+
+[node name="Background" type="ColorRect" parent="." unique_id=1522088186]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="WordDisplay" type="Node2D" parent="." unique_id=1610202051]
+
+[node name="Input" type="LineEdit" parent="." unique_id=1847171810]
+offset_right = 68.5
+offset_bottom = 31.0
+
+[node name="UI" type="CanvasLayer" parent="." unique_id=987657767]
+
+[node name="TimerLabel" type="Label" parent="UI" unique_id=350954483]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="WPMLabel" type="Label" parent="UI" unique_id=339045317]
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="AccuracyLabel" type="Label" parent="UI" unique_id=633756671]
+offset_right = 40.0
+offset_bottom = 23.0
