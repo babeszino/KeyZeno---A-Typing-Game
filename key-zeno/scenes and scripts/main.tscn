@@ -1,5 +1,8 @@
 [gd_scene format=3 uid="uid://l02m8d70m254"]
 
+[ext_resource type="Script" uid="uid://bmxaflch7t16b" path="res://scenes and scripts/word_display.gd" id="1_5ch8k"]
+[ext_resource type="Texture2D" uid="uid://cws8vmsit2ild" path="res://assets/alphabet_sprite.png" id="2_h0iye"]
+
 [node name="Main" type="Node2D" unique_id=961440500]
 
 [node name="Background" type="ColorRect" parent="." unique_id=1522088186]
@@ -9,6 +12,8 @@ color = Color(0.0627451, 0.21176471, 0.3137255, 1)
 
 [node name="WordDisplay" type="Node2D" parent="." unique_id=1610202051]
 position = Vector2(640, 340)
+script = ExtResource("1_5ch8k")
+atlas = ExtResource("2_h0iye")
 
 [node name="Input" type="LineEdit" parent="." unique_id=1847171810]
 offset_left = -300.0
